@@ -6,12 +6,12 @@ public class Task7_1 {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("Введите количество строк: ");
+		System.out.print("Enter number of string: ");
 		int numberOfStrings = scanner.nextInt();
 		String[] strings = new String[numberOfStrings];
 
 		for (int i = 0; i <= numberOfStrings - 1; i++) {
-			System.out.println("Введите строку номер " + (i + 1) + ": ");
+			System.out.println("Enter string " + (i + 1) + ": ");
 			strings[i] = scanner.nextLine();
 		}
 		String longString = strings[0];
@@ -23,7 +23,7 @@ public class Task7_1 {
 				longString = strings[i];
 			}
 		}
-		System.out.println("Самая короткая строка (длина): " + shortString + "(" + shortString.length() + ")");
-		System.out.println("Самая длинная строка (длина): " + longString + "(" + longString.length() + ")");
+		System.out.println("Shortest string length is: " + shortString + "(" + shortString.length() + ")");
+		System.out.println("Longest string length is: " + longString + "(" + longString.length() + ")");
 	}
 }
