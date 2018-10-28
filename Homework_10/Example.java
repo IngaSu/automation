@@ -9,10 +9,8 @@ public class Example {
 		userText.userEnter();
 		ArrayList<String> plainText = userText.getTextAsArrayList();
 		ArrayList<String> splitedToSentence = userText.split(plainText);
-		userText.print();
-
-		
-	
+		Sentence sentence = new Sentence();
+		ArrayList<String> splitToWords = sentence.split(splitedToSentence);
 
 	}
 
