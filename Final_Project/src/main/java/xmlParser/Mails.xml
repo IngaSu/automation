@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mails>
+	<Mail id="1">
+		<to>'inha@bk.ru'</to>
+		<subject>'Autotest subject to Inha'</subject>
+		<text>'Hi my dear friend!'</text>
+	</Mail>
+</Mails>
